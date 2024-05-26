@@ -11,12 +11,13 @@ VANILLA_URL=$(curl https://static.runelite.net/jav_config.ws | grep runelite.gam
 curl $VANILLA_URL > vanilla.jar
 $JAVA_HOME_21_X64/bin/java -cp updater.jar net.runelite.gamepack.Patcher vanilla.jar client.patch patched.jar
 $JAVA_HOME_21_X64/bin/java -cp updater.jar net.runelite.deob.Deob patched.jar deob.jar
-$JAVA_HOME_21_X64/bin/java -cp updater.jar net.runelite.hook.UpdateHooks deob.jar renamed.jar hooks.json
+$JAVA_HOME_21_X64/bin/java -cp updater.jar net.runelite.hook.UpdateHooks deob.jar renamed.jar hooks-unsorted.json
+jq -S < hooks-unsorted.json > hooks.json
 echo -n $BOOT_HASH > hash
 if ! [ -z "$GITHUB_ACTIONS" ]; then
-	git config --global user.name 'updater-autobot'
+	git config --global user.name 'a'
 	git config --global user.email ''
 	git add hash hooks.json
-	git commit -m "update client patch $BOOT_HASH"
+	git commit -m "update $BOOT_NAME"
 	git push
 fi
