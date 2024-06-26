@@ -1,139 +1,154 @@
 {
   "AABB": {
-    "class": "jo",
+    "class": "ka",
     "fields": {
       "centerX": {
-        "field": "al",
-        "get": 1998849149
+        "field": "aq",
+        "get": 2047755405
       },
       "centerY": {
-        "field": "aa",
-        "get": -1358064335
+        "field": "ad",
+        "get": 1256249609
+      },
+      "centerZ": {
+        "field": "ag",
+        "get": -738662181
       },
       "extremeX": {
-        "field": "af",
-        "get": 34426305
+        "field": "ak",
+        "get": -462676723
       },
       "extremeY": {
-        "field": "ak",
-        "get": -1261800775
+        "field": "ap",
+        "get": 942113713
       },
       "extremeZ": {
-        "field": "aj",
-        "get": -92257465
+        "field": "an",
+        "get": -1574879219
       }
     }
   },
   "Actor": {
-    "class": "dh",
+    "class": "dw",
     "fields": {
       "animation": {
-        "field": "cx",
-        "get": 2002995319
+        "field": "ca",
+        "get": -614178723
       },
       "animationFrame": {
-        "field": "dj",
-        "get": 986534879
+        "field": "df",
+        "get": 965082429
+      },
+      "currentOrientation": {
+        "field": "bs",
+        "get": 1878862993
       },
       "dead": {
-        "field": "zv"
+        "field": "ou"
       },
       "idlePoseAnimation": {
-        "field": "bh",
-        "get": -1581269493
+        "field": "bu",
+        "get": -493190143
       },
       "idleRotateLeft": {
-        "field": "bk",
-        "get": -1749214235
+        "field": "by",
+        "get": -990054803
       },
       "idleRotateRight": {
-        "field": "bp",
-        "get": -1144226535
+        "field": "bw",
+        "get": -63394617
       },
       "logicalHeight": {
-        "field": "dc",
-        "get": 1256709759
+        "field": "da",
+        "get": -1167369591
       },
       "orientation": {
-        "field": "di",
-        "get": 74629429
+        "field": "dj",
+        "get": 669357539
       },
       "overheadCycle": {
-        "field": "ch",
-        "get": -1201567313
+        "field": "cm",
+        "get": -2071720493
       },
       "overheadText": {
-        "field": "cw"
+        "field": "cf"
+      },
+      "poseAnimation": {
+        "field": "cb",
+        "get": 449533137
       },
       "poseAnimationFrame": {
-        "field": "cv",
-        "get": -302041719
+        "field": "cz",
+        "get": 1662201195
       },
       "runAnimation": {
-        "field": "bm",
-        "get": 891114171
+        "field": "bn",
+        "get": -569488431
       },
       "walkAnimation": {
-        "field": "br",
-        "get": 1957996463
+        "field": "bl",
+        "get": 1724349177
       },
       "walkRotate180": {
-        "field": "bx",
-        "get": 1125955673
+        "field": "bc",
+        "get": 1421034027
       },
       "walkRotateLeft": {
-        "field": "bd",
-        "get": -957437539
+        "field": "bv",
+        "get": -216563089
       },
       "walkRotateRight": {
-        "field": "bv",
-        "get": -2018655779
+        "field": "bb",
+        "get": -786090101
       }
     }
   },
   "ActorSpotAnim": {
-    "class": "sq",
+    "class": "sl",
     "fields": {
       "cycle": {
-        "field": "aj",
-        "get": 1972188803
+        "field": "ad",
+        "get": -1227115687
       },
       "frame": {
-        "field": "al",
-        "get": -63926047
+        "field": "ak",
+        "get": 587967313
       },
       "height": {
-        "field": "af",
-        "get": -961502985
+        "field": "ag",
+        "get": -598179925
       },
       "id": {
-        "field": "ak",
-        "get": -1521454339
+        "field": "ap",
+        "get": 1338996301
       }
     }
   },
   "AmbientSoundEffect": {
-    "class": "cy",
+    "class": "cc",
     "fields": {
       "backgroundSoundEffectIds": {
-        "field": "aq"
+        "field": "ah"
       },
       "plane": {
-        "field": "af",
-        "get": 1864766337
+        "field": "ad",
+        "get": 1547628377
       },
       "soundEffectId": {
-        "field": "aa",
-        "get": 844790461
+        "field": "ab",
+        "get": 591656919
       }
     }
   },
   "Animation": {
-    "class": "ic",
+    "class": "ii",
     "fields": {
+      "id": {
+        "field": "pp"
+      },
       "restartMode": {
-        "field": "bi",
-        "get": -1104871125
+        "field": "bm",
+        "get": -543932181
       }
     }
   },
@@ -141,56 +156,56 @@
     "class": "vx",
     "fields": {
       "height": {
-        "field": "az",
-        "get": 1871416401
+        "field": "ap",
+        "get": -609996575
       },
       "pixels": {
-        "field": "aj"
+        "field": "ag"
       },
       "width": {
-        "field": "af",
-        "get": -463747397
+        "field": "ak",
+        "get": -278390989
       }
     }
   },
   "ChatLineBuffer": {
-    "class": "db",
+    "class": "dn",
     "fields": {
       "length": {
-        "field": "aj",
-        "get": -1975266977
+        "field": "ag",
+        "get": -89644527
       },
       "lines": {
-        "field": "al"
+        "field": "ad"
       }
     }
   },
   "ChatPlayer": {
-    "class": "so",
+    "class": "sh",
     "fields": {
       "world": {
-        "field": "af",
-        "get": 580704417
+        "field": "ap",
+        "get": -608742771
       }
     }
   },
   "ClanChannel": {
-    "class": "go",
+    "class": "gj",
     "fields": {
       "members": {
-        "field": "aj"
+        "field": "ag"
       },
       "name": {
-        "field": "aa"
+        "field": "an"
       }
     }
   },
   "ClanChannelMember": {
-    "class": "fj",
+    "class": "fa",
     "fields": {
       "world": {
-        "field": "al",
-        "get": 533400535
+        "field": "ad",
+        "get": -1991639177
       }
     }
   },
@@ -199,10 +214,10 @@
     "fields": {}
   },
   "ClanSettings": {
-    "class": "gc",
+    "class": "gk",
     "fields": {
       "name": {
-        "field": "aa"
+        "field": "an"
       }
     }
   },
@@ -210,95 +225,99 @@
     "class": "client",
     "fields": {
       "accountHash": {
-        "field": "hr",
-        "get": 4940111494881885000
+        "field": "hl",
+        "get": -7067965715940361000
       },
       "callbacks": {
-        "field": "ro"
+        "field": "je"
       },
       "menuForceLeftClick": {
-        "field": "oi"
+        "field": "or"
       },
       "menuIdentifier": {
-        "field": "nx"
+        "field": "oq"
       },
       "menuItemId": {
-        "field": "ni"
+        "field": "ov"
       },
       "menuOption": {
-        "field": "of"
+        "field": "op"
       },
       "menuParam0": {
-        "field": "nf"
+        "field": "nb"
       },
       "menuParam1": {
-        "field": "nd"
+        "field": "nk"
       },
       "menuTarget": {
-        "field": "oo"
+        "field": "ob"
       },
       "menuWorldViewId": {
-        "field": "nc"
+        "field": "od"
       }
     }
   },
   "CollisionData": {
-    "class": "ir",
+    "class": "ip",
     "fields": {
       "flags": {
-        "field": "bk"
+        "field": "by"
       }
     }
   },
   "ColorTextureOverride": {
-    "class": "ha",
+    "class": "gz",
     "fields": {
       "colorToReplaceWith": {
-        "field": "aj"
+        "field": "ag"
       },
       "textureToReplaceWith": {
-        "field": "az"
+        "field": "ak"
       }
     }
   },
   "DBRowConfig": {
-    "class": "uw",
+    "class": "ut",
     "fields": {
       "tableID": {
-        "field": "af",
-        "get": 1661552683
+        "field": "ap",
+        "get": -258897133
       }
     }
   },
   "DecorativeObject": {
-    "class": "kj",
+    "class": "lu",
     "fields": {
       "config": {
-        "field": "at",
-        "get": -1756144545
+        "field": "ae",
+        "get": 1567816115
       },
       "hash": {
-        "field": "ao",
-        "get": 5421932838209318000
+        "field": "ai",
+        "get": -6295974171581437000
       },
       "plane": {
-        "field": "kf"
+        "field": "fj"
       },
       "x": {
-        "field": "aj",
-        "get": 881866845
+        "field": "ad",
+        "get": -1356321823
       },
       "xOffset": {
-        "field": "ah",
-        "get": -2133935761
+        "field": "an",
+        "get": 871683133
       },
       "y": {
-        "field": "aa",
-        "get": 1330599413
+        "field": "ag",
+        "get": 2051646557
       },
       "yOffset": {
-        "field": "ak",
-        "get": -386929949
+        "field": "aj",
+        "get": -1574211657
+      },
+      "z": {
+        "field": "aq",
+        "get": -1179187821
       }
     }
   },
@@ -306,408 +325,416 @@
     "class": "dr",
     "fields": {
       "animCycle": {
-        "field": "ao",
-        "get": -212623117
+        "field": "ai",
+        "get": 302909337
       },
       "animFrame": {
-        "field": "ac",
-        "get": -440522477
+        "field": "ab",
+        "get": -405582099
       }
     }
   },
   "EnumComposition": {
-    "class": "hz",
+    "class": "hw",
     "fields": {
       "intVals": {
         "field": "ab"
       },
       "keys": {
-        "field": "ac"
+        "field": "av"
       },
       "stringVals": {
-        "field": "ao"
+        "field": "ai"
       }
     }
   },
   "FontTypeFace": {
-    "class": "qt",
+    "class": "qz",
     "fields": {
       "baseline": {
-        "field": "ab"
+        "field": "av"
       }
     }
   },
   "Friend": {
-    "class": "rf",
+    "class": "rn",
     "fields": {}
   },
   "FriendContainer": {
-    "class": "rx",
+    "class": "ry",
     "fields": {
       "pendingLogins": {
-        "field": "af"
+        "field": "ap"
       }
     }
   },
   "FriendsChatManager": {
-    "class": "ro",
+    "class": "rm",
     "fields": {
       "name": {
-        "field": "az"
+        "field": "ak"
       },
       "owner": {
-        "field": "af"
+        "field": "ap"
       }
     }
   },
   "FriendsChatMember": {
-    "class": "sn",
+    "class": "sd",
     "fields": {}
   },
   "GameEngine": {
-    "class": "be",
+    "class": "bs",
     "fields": {
       "canvas": {
-        "field": "bn"
+        "field": "bi"
       },
       "clientThread": {
-        "field": "gy"
+        "field": "pt"
       }
     }
   },
   "GameObject": {
-    "class": "kf",
+    "class": "lp",
     "fields": {
       "config": {
-        "field": "ap",
-        "get": 2016533671
+        "field": "az",
+        "get": 1042137613
       },
       "hash": {
-        "field": "aq",
-        "get": 6238027129843277000
+        "field": "ah",
+        "get": -1569410276734308000
       },
       "modelOrientation": {
-        "field": "aa",
-        "get": -1056312055
+        "field": "aj",
+        "get": -1877979663
       },
       "plane": {
-        "field": "ak",
-        "get": -783151089
+        "field": "aq",
+        "get": 1185086541
+      },
+      "x": {
+        "field": "ag",
+        "get": 632661417
       },
       "y": {
-        "field": "az",
-        "get": 1721181881
+        "field": "ak",
+        "get": 340723817
       },
       "z": {
-        "field": "al",
-        "get": 1852068695
+        "field": "ad",
+        "get": 571921967
       }
     }
   },
   "GrandExchangeOffer": {
-    "class": "pg",
+    "class": "ps",
     "fields": {
       "itemId": {
-        "field": "al",
-        "get": -657879925
+        "field": "ad",
+        "get": -1879979743
       },
       "price": {
-        "field": "aj",
-        "get": -2070091891
+        "field": "ag",
+        "get": -74676455
       },
       "quantitySold": {
-        "field": "af",
-        "get": 934961267
+        "field": "ap",
+        "get": -1937218483
       },
       "spent": {
-        "field": "aa",
-        "get": 467418017
+        "field": "an",
+        "get": -406242341
       },
       "totalQuantity": {
-        "field": "az",
-        "get": 2010946641
+        "field": "ak",
+        "get": 1840881785
       }
     }
   },
   "GraphicsObject": {
-    "class": "cg",
+    "class": "cb",
     "fields": {
       "animationFrame": {
-        "field": "ab",
-        "get": -1549919911
+        "field": "av",
+        "get": -1066179869
       },
       "id": {
-        "field": "ak",
-        "get": -61247699
+        "field": "aq",
+        "get": 1618500387
       },
       "level": {
-        "field": "aj",
-        "get": -107795739
+        "field": "ag",
+        "get": 2101976971
       },
       "startCycle": {
-        "field": "al",
-        "get": -217494561
+        "field": "ad",
+        "get": 2114524059
       },
       "z": {
-        "field": "aa",
-        "get": -1573445793
+        "field": "an",
+        "get": -1174215027
       }
     }
   },
   "GroundObject": {
-    "class": "jm",
+    "class": "kk",
     "fields": {
       "config": {
-        "field": "aa",
-        "get": -1918367719
+        "field": "an",
+        "get": -1276033865
       },
       "hash": {
-        "field": "af",
-        "get": 3445693261772232700
+        "field": "ap",
+        "get": -7989712840084584000
       },
       "plane": {
-        "field": "iu"
+        "field": "xa"
+      },
+      "x": {
+        "field": "ad",
+        "get": -2027599945
       },
       "y": {
-        "field": "aj",
-        "get": 907849081
+        "field": "ag",
+        "get": 1568279101
       },
       "z": {
-        "field": "ak",
-        "get": -2036021473
+        "field": "aq",
+        "get": -1910207127
       }
     }
   },
   "HashTable": {
-    "class": "tx",
+    "class": "up",
     "fields": {}
   },
   "HealthBar": {
-    "class": "hl",
+    "class": "hy",
     "fields": {
       "healthBarFrontSpriteId": {
-        "field": "ap",
-        "get": 188716697
+        "field": "ah",
+        "get": -1320982237
       }
     }
   },
   "Ignore": {
-    "class": "sj",
+    "class": "sn",
     "fields": {}
   },
   "IndexDataBase": {
-    "class": "or",
+    "class": "ok",
     "fields": {
       "overlayOutdated": {
-        "field": "xw"
+        "field": "yr"
       }
     }
   },
   "IndexedSprite": {
-    "class": "vl",
+    "class": "vv",
     "fields": {
       "offsetX": {
-        "field": "af"
+        "field": "aj"
       },
       "offsetY": {
-        "field": "aa"
+        "field": "ap"
       },
       "originalHeight": {
-        "field": "ab"
+        "field": "an"
       },
       "originalWidth": {
-        "field": "at"
-      },
-      "palette": {
-        "field": "al"
-      },
-      "pixels": {
         "field": "ak"
       },
+      "palette": {
+        "field": "ad"
+      },
+      "pixels": {
+        "field": "aq"
+      },
       "width": {
-        "field": "aj"
+        "field": "av"
       }
     }
   },
   "IntProjection": {
-    "class": "jg",
+    "class": "kc",
     "fields": {
       "cameraX": {
-        "field": "ak",
-        "get": -653944201
+        "field": "aq",
+        "get": -1431280305
       },
       "cameraY": {
-        "field": "al",
-        "get": -1004642109
+        "field": "ad",
+        "get": -1099588265
       },
       "cameraZ": {
-        "field": "aj",
-        "get": -1404479995
+        "field": "ag",
+        "get": -705159913
       },
       "pitchCos": {
-        "field": "at",
-        "get": 169206163
+        "field": "aj",
+        "get": -919142613
       },
       "pitchSin": {
-        "field": "aa",
-        "get": 1392008033
+        "field": "an",
+        "get": 1611315841
       },
       "yawCos": {
-        "field": "ac",
-        "get": -1543758921
+        "field": "ab",
+        "get": -903591805
       },
       "yawSin": {
-        "field": "ab",
-        "get": -174075279
+        "field": "av",
+        "get": -1173490183
       }
     }
   },
   "IntegerNode": {
-    "class": "tv",
+    "class": "tn",
     "fields": {
       "value": {
-        "field": "ak"
+        "field": "aq"
       }
     }
   },
   "ItemComposition": {
-    "class": "ix",
+    "class": "he",
     "fields": {
       "ambient": {
-        "field": "cs",
-        "get": -290746929
+        "field": "aw",
+        "get": 1423274177
       },
       "colorToReplace": {
-        "field": "au"
+        "field": "ao"
       },
       "colorToReplaceWith": {
-        "field": "as"
-      },
-      "contrast": {
-        "field": "cm",
-        "get": 1492063051
+        "field": "aa"
       },
       "id": {
-        "field": "ap",
-        "get": -558612465
+        "field": "az",
+        "get": 1944766345
       },
       "inventoryActions": {
-        "field": "bu"
+        "field": "bx"
       },
       "inventoryModel": {
-        "field": "ae",
-        "get": 1891049619
+        "field": "ax",
+        "get": 52249075
       },
       "linkedNoteId": {
-        "field": "ck",
-        "get": -311416291
+        "field": "am",
+        "get": 1988212629
       },
       "members": {
-        "field": "be"
+        "field": "bs"
       },
       "membersName": {
-        "field": "fz"
+        "field": "qx"
       },
       "name": {
-        "field": "ax"
+        "field": "ac"
       },
       "note": {
-        "field": "cn",
-        "get": -2128621985
+        "field": "ba",
+        "get": 653842041
       },
       "params": {
-        "field": "cb"
+        "field": "ct"
       },
       "placeholderId": {
-        "field": "ce",
-        "get": 1391845273
+        "field": "bm",
+        "get": -1535727593
+      },
+      "placeholderTemplateId": {
+        "field": "tf",
+        "get": -672657563
       },
       "price": {
-        "field": "bt",
-        "get": -427615883
+        "field": "ar",
+        "get": 602889903
       },
       "textureToReplace": {
-        "field": "aw"
+        "field": "as"
       },
       "textureToReplaceWith": {
-        "field": "ad"
+        "field": "ay"
       },
       "tradeable": {
-        "field": "cr"
+        "field": "cd"
       },
       "xan2d": {
-        "field": "an",
-        "get": -1257142657
+        "field": "cn",
+        "get": -932511077
       },
       "yan2d": {
-        "field": "am",
-        "get": 2120307137
+        "field": "co",
+        "get": 1790208239
       },
       "zan2d": {
-        "field": "ar",
-        "get": -1016391741
+        "field": "cl",
+        "get": -1823481547
       }
     }
   },
   "ItemContainer": {
-    "class": "da",
+    "class": "dk",
     "fields": {}
   },
   "ItemLayer": {
-    "class": "jh",
+    "class": "kb",
     "fields": {
       "hash": {
-        "field": "at",
-        "get": -8933060122100064000
+        "field": "aj",
+        "get": 3447870506361826000
       },
       "height": {
-        "field": "ab",
-        "get": 1853806987
+        "field": "av",
+        "get": -1485755687
       },
       "plane": {
-        "field": "rd"
+        "field": "zt"
       },
       "x": {
-        "field": "al",
-        "get": -1428347469
+        "field": "ad",
+        "get": 2112959527
       },
       "y": {
-        "field": "aj",
-        "get": -1795281107
+        "field": "ag",
+        "get": -2058003033
       },
       "z": {
-        "field": "ak",
-        "get": 1738797291
+        "field": "aq",
+        "get": 845387785
       }
     }
   },
   "IterableHashTable": {
-    "class": "tu",
+    "class": "th",
     "fields": {}
   },
   "KeyHandler": {
-    "class": "ag",
+    "class": "ar",
     "fields": {
       "idleCycles": {
-        "field": "aa",
-        "get": -39112623
+        "field": "an",
+        "get": 331983769
       }
     }
   },
   "MainBufferProvider": {
-    "class": "bw",
+    "class": "ba",
     "fields": {
       "image": {
-        "field": "al"
+        "field": "ad"
       }
     }
   },
   "MapElementConfig": {
-    "class": "hr",
+    "class": "gg",
     "fields": {
       "category": {
-        "field": "ac",
-        "get": 1951731109
+        "field": "am",
+        "get": -1450163917
       }
     }
   },
@@ -715,460 +742,476 @@
     "class": "rl4",
     "fields": {
       "index": {
-        "field": "bc"
+        "field": "gl"
       }
     }
   },
   "MessageNode": {
-    "class": "co",
+    "class": "ck",
     "fields": {
       "id": {
-        "field": "ak",
-        "get": 1451705427
+        "field": "aq",
+        "get": 1848380449
       },
       "name": {
-        "field": "az"
+        "field": "av"
       },
       "runeLiteFormatMessage": {
-        "field": "ge"
+        "field": "du"
       },
       "sender": {
         "field": "ab"
       },
       "timestamp": {
-        "field": "xf"
+        "field": "uk"
       }
     }
   },
   "Model": {
-    "class": "kb",
+    "class": "lv",
     "fields": {
       "bottomY": {
-        "field": "bl"
-      },
-      "bufferOffset": {
-        "field": "ot"
-      },
-      "diameter": {
         "field": "bg"
       },
+      "bufferOffset": {
+        "field": "yp"
+      },
+      "diameter": {
+        "field": "bp"
+      },
       "faceColors1": {
-        "field": "ae"
+        "field": "ac"
       },
       "faceColors2": {
-        "field": "ax"
+        "field": "al"
       },
       "faceColors3": {
-        "field": "ar"
+        "field": "ay"
       },
       "faceCount": {
-        "field": "av"
-      },
-      "faceIndices1": {
         "field": "au"
       },
+      "faceIndices1": {
+        "field": "ah"
+      },
       "faceIndices2": {
-        "field": "bs"
+        "field": "az"
       },
       "faceIndices3": {
-        "field": "ao"
+        "field": "ax"
       },
       "faceRenderPriorities": {
-        "field": "as"
+        "field": "ao"
       },
       "faceTextures": {
-        "field": "ai"
+        "field": "aw"
       },
       "faceTransparencies": {
-        "field": "aw"
+        "field": "aa"
       },
       "overrideAmount": {
         "field": "cj"
       },
       "overrideHue": {
-        "field": "ct"
+        "field": "cr"
       },
       "overrideLuminance": {
-        "field": "cv"
+        "field": "cz"
       },
       "overrideSaturation": {
-        "field": "cg"
+        "field": "cb"
       },
       "radius": {
-        "field": "bu"
+        "field": "bx"
       },
       "sceneId": {
-        "field": "qb"
+        "field": "in"
       },
       "texIndices1": {
-        "field": "ap"
+        "field": "am"
       },
       "texIndices2": {
-        "field": "ah"
+        "field": "ar"
       },
       "texIndices3": {
-        "field": "ay"
+        "field": "bt"
       },
       "textureFaces": {
-        "field": "ad"
+        "field": "as"
       },
       "uvBufferOffset": {
-        "field": "ol"
+        "field": "ik"
       },
       "vertexNormalsX": {
-        "field": "qk"
+        "field": "vr"
       },
       "vertexNormalsY": {
-        "field": "ss"
+        "field": "di"
       },
       "vertexNormalsZ": {
-        "field": "oc"
+        "field": "jr"
       },
       "verticesCount": {
-        "field": "ab"
+        "field": "av"
       },
       "verticesX": {
-        "field": "uo"
+        "field": "df"
       },
       "verticesY": {
-        "field": "if"
+        "field": "uf"
       },
       "verticesZ": {
-        "field": "qd"
+        "field": "dg"
       },
       "xYZMag": {
-        "field": "be"
+        "field": "bs"
       }
     }
   },
   "ModelData": {
-    "class": "jb",
+    "class": "kr",
     "fields": {
       "faceColors": {
-        "field": "ax"
+        "field": "al"
       },
       "faceCount": {
-        "field": "ab"
+        "field": "av"
       },
       "faceIndices1": {
-        "field": "ac"
+        "field": "ab"
       },
       "faceIndices2": {
-        "field": "ao"
+        "field": "ai"
       },
       "faceIndices3": {
-        "field": "ah"
+        "field": "ae"
       },
       "faceTextures": {
-        "field": "ay"
+        "field": "aw"
       },
       "faceTransparencies": {
-        "field": "ap"
-      },
-      "verticesCount": {
         "field": "az"
       },
+      "verticesCount": {
+        "field": "ak"
+      },
       "verticesX": {
-        "field": "eu"
+        "field": "hs"
       },
       "verticesY": {
-        "field": "ik"
+        "field": "yi"
       },
       "verticesZ": {
-        "field": "wc"
+        "field": "ys"
       }
     }
   },
   "MouseHandler": {
-    "class": "bg",
+    "class": "bp",
     "fields": {}
   },
   "NPC": {
-    "class": "dv",
+    "class": "dx",
     "fields": {
       "chatheadOverrides": {
         "field": "ab"
       },
       "index": {
-        "field": "mr"
+        "field": "zs"
       },
       "modelOverrides": {
-        "field": "aa"
+        "field": "aj"
       }
     }
   },
   "NPCComposition": {
-    "class": "iq",
+    "class": "hb",
     "fields": {
       "actions": {
-        "field": "bi"
+        "field": "bm"
       },
       "colorToReplace": {
-        "field": "ag"
+        "field": "ar"
       },
       "colorToReplaceWith": {
-        "field": "bs"
-      },
-      "configs": {
-        "field": "bk"
-      },
-      "follower": {
-        "field": "bv"
-      },
-      "heightScale": {
-        "field": "bl",
-        "get": -1609108809
-      },
-      "id": {
-        "field": "aa",
-        "get": -244805767
-      },
-      "interactible": {
-        "field": "bx"
-      },
-      "minimapVisible": {
         "field": "bt"
       },
-      "models": {
-        "field": "ac"
+      "combatLevel": {
+        "field": "bi",
+        "get": 1316122047
       },
-      "name": {
-        "field": "at"
+      "configs": {
+        "field": "by"
       },
-      "params": {
+      "follower": {
+        "field": "bb"
+      },
+      "heightScale": {
+        "field": "bg",
+        "get": 204475581
+      },
+      "id": {
+        "field": "an",
+        "get": -2009531171
+      },
+      "interactible": {
         "field": "bc"
       },
+      "minimapVisible": {
+        "field": "bo"
+      },
+      "models": {
+        "field": "ab"
+      },
+      "name": {
+        "field": "aj"
+      },
+      "params": {
+        "field": "bz"
+      },
       "size": {
-        "field": "ab",
-        "get": 1016297279
+        "field": "av",
+        "get": 1973900023
       },
       "visible": {
-        "field": "be"
+        "field": "bs"
       },
       "widthScale": {
-        "field": "bw",
-        "get": -1845965057
+        "field": "ba",
+        "get": 1126463291
       }
     }
   },
   "Nameable": {
-    "class": "sg",
+    "class": "sk",
     "fields": {}
   },
   "NameableContainer": {
-    "class": "sk",
+    "class": "sc",
     "fields": {
       "count": {
-        "field": "ao",
-        "get": 1787887569
+        "field": "ai",
+        "get": -855604593
       },
       "size": {
-        "field": "ac",
-        "get": 1562466101
+        "field": "ab",
+        "get": -1875806315
       }
     }
   },
   "Node": {
-    "class": "tl",
+    "class": "tz",
     "fields": {
       "hash": {
-        "field": "he"
+        "field": "hq"
       }
     }
   },
   "NodeCache": {
-    "class": "lm",
+    "class": "mo",
     "fields": {}
   },
   "NpcOverrides": {
-    "class": "io",
+    "class": "hh",
     "fields": {
       "colorToReplaceWith": {
-        "field": "aj"
+        "field": "ak"
       },
       "modelIds": {
-        "field": "al"
+        "field": "ad"
       },
       "textureToReplaceWith": {
-        "field": "az"
+        "field": "ag"
       }
     }
   },
   "ObjectComposition": {
-    "class": "in",
+    "class": "ho",
     "fields": {
       "actions": {
-        "field": "bo"
+        "field": "be"
       },
       "id": {
-        "field": "ac",
-        "get": -1319537121
+        "field": "ab",
+        "get": 1778792619
       },
       "impostorIds": {
-        "field": "bb"
+        "field": "bv"
       },
       "mapIconId": {
-        "field": "bi",
-        "get": -1593084539
+        "field": "bm",
+        "get": 1446305355
       },
       "mapSceneId": {
-        "field": "bt",
-        "get": -2103253725
+        "field": "bo",
+        "get": -1499221133
       },
       "name": {
-        "field": "av"
+        "field": "au"
       },
       "params": {
-        "field": "ck"
+        "field": "cv"
       },
       "sizeX": {
-        "field": "ay",
-        "get": 2084895069
+        "field": "al",
+        "get": 1939931417
       },
       "sizeY": {
-        "field": "au",
-        "get": -671951401
+        "field": "ay",
+        "get": -1608175373
       },
       "varPlayerId": {
-        "field": "bm",
-        "get": -928435997
+        "field": "bn",
+        "get": -808370635
       },
       "varbitId": {
-        "field": "bv",
-        "get": -1535363851
+        "field": "bb",
+        "get": -437553519
       }
     }
   },
   "PacketBuffer": {
-    "class": "uk",
+    "class": "ug",
     "fields": {}
   },
   "PendingLogin": {
-    "class": "ra",
+    "class": "sx",
     "fields": {
       "world": {
-        "field": "aj"
+        "field": "ag"
       }
     }
   },
   "Player": {
-    "class": "de",
+    "class": "db",
     "fields": {
       "combatLevel": {
-        "field": "bi",
-        "get": -1989491569
+        "field": "av",
+        "get": -928426009
       },
       "id": {
-        "field": "as",
-        "get": -1451120567
+        "field": "am",
+        "get": 1676236885
       },
       "skullIcon": {
-        "field": "at",
-        "get": 1181672555
+        "field": "ag",
+        "get": -227316761
+      },
+      "team": {
+        "field": "aw",
+        "get": 1196811517
       }
     }
   },
   "PlayerComposition": {
-    "class": "nt",
+    "class": "ne",
     "fields": {
       "colorTextureOverrides": {
-        "field": "ac"
+        "field": "ab"
       },
       "colors": {
-        "field": "aj"
+        "field": "ag"
       },
       "equipmentIds": {
-        "field": "al"
+        "field": "ad"
+      },
+      "gender": {
+        "field": "ap",
+        "get": -1570243249
       }
     }
   },
   "Preferences": {
-    "class": "dx",
+    "class": "dq",
     "fields": {
+      "areaSoundEffectVolume": {
+        "field": "ah",
+        "get": -966473101
+      },
       "rememberedUsername": {
-        "field": "ae"
+        "field": "ax"
       },
       "soundEffectVolume": {
-        "field": "av",
-        "get": -483689475
+        "field": "au",
+        "get": 35823685
       }
     }
   },
   "Projectile": {
-    "class": "dj",
+    "class": "df",
     "fields": {
       "animation": {
-        "field": "bs"
+        "field": "bt"
       },
       "animationFrame": {
-        "field": "bf",
-        "get": 624670785
+        "field": "bj",
+        "get": 1315368611
       },
       "endCycle": {
-        "field": "ah",
-        "get": -884521431
+        "field": "ae",
+        "get": -1039953437
       },
       "endHeight": {
-        "field": "aa",
-        "get": 494262325
+        "field": "an",
+        "get": -1690959867
       },
       "floor": {
-        "field": "al",
-        "get": 1534471891
+        "field": "ad",
+        "get": -1766816905
       },
       "height": {
-        "field": "af",
-        "get": 165646981
+        "field": "ap",
+        "get": 1045611613
       },
       "id": {
-        "field": "ak",
-        "get": 197772491
+        "field": "aq",
+        "get": -504466887
       },
       "scalar": {
-        "field": "ad"
-      },
-      "slope": {
-        "field": "av",
-        "get": -1413510113
-      },
-      "startCycle": {
-        "field": "ao",
-        "get": 467035077
-      },
-      "startHeight": {
-        "field": "aq",
-        "get": 1959902371
-      },
-      "velocityX": {
-        "field": "ay"
-      },
-      "velocityY": {
         "field": "aw"
       },
+      "slope": {
+        "field": "au",
+        "get": 563603713
+      },
+      "startCycle": {
+        "field": "ai",
+        "get": -135221413
+      },
+      "startHeight": {
+        "field": "ah",
+        "get": 864895171
+      },
+      "velocityX": {
+        "field": "aa"
+      },
+      "velocityY": {
+        "field": "as"
+      },
       "velocityZ": {
-        "field": "au"
+        "field": "at"
       },
       "x": {
-        "field": "am"
+        "field": "al"
       },
       "x1": {
-        "field": "aj",
-        "get": 941170019
+        "field": "ag",
+        "get": -1772430645
       },
       "y": {
-        "field": "ai"
+        "field": "ay"
       },
       "y1": {
-        "field": "az",
-        "get": -1125042955
+        "field": "ak",
+        "get": 1782025733
       },
       "z": {
-        "field": "an"
+        "field": "ao"
       }
     }
   },
   "Projection": {
-    "class": "kl",
+    "class": "ln",
     "fields": {}
   },
   "Rasterizer": {
@@ -1176,19 +1219,19 @@
     "fields": {}
   },
   "RenderOverview": {
-    "class": "tb",
+    "class": "tw",
     "fields": {
       "worldMapZoom": {
-        "field": "ag"
+        "field": "ar"
       }
     }
   },
   "Renderable": {
-    "class": "ju",
+    "class": "kt",
     "fields": {
       "modelHeight": {
-        "field": "ev",
-        "get": 2009823259
+        "field": "ej",
+        "get": 776464435
       }
     }
   },
@@ -1196,650 +1239,643 @@
     "class": "rl13",
     "fields": {
       "orientation": {
-        "field": "sy"
+        "field": "qe"
       },
       "radius": {
-        "field": "oe"
+        "field": "at"
       }
     }
   },
   "Scene": {
-    "class": "jy",
+    "class": "kq",
     "fields": {
       "baseX": {
-        "field": "rr"
+        "field": "dy"
       },
       "baseY": {
-        "field": "kw"
+        "field": "ew"
       },
       "extendedTileSettings": {
-        "field": "km"
+        "field": "uw"
       },
       "instance": {
-        "field": "ta"
+        "field": "vw"
       },
       "instanceTemplateChunks": {
-        "field": "tk"
+        "field": "up"
       },
       "minLevel": {
-        "field": "ac"
+        "field": "ab"
       },
       "overlayIds": {
-        "field": "gp"
+        "field": "wh"
       },
       "selectedX": {
-        "field": "bg"
-      },
-      "selectedY": {
-        "field": "bu"
+        "field": "hf"
       },
       "tileHeights": {
-        "field": "av"
+        "field": "aj"
       },
       "tileShapes": {
-        "field": "gq"
+        "field": "fn"
       },
       "underlayIds": {
-        "field": "vz"
+        "field": "fo"
       },
       "viewportWalking": {
-        "field": "bh"
+        "field": "bi"
       },
       "worldViewId": {
-        "field": "ak"
+        "field": "aq"
       }
     }
   },
   "SceneTileModel": {
-    "class": "ke",
+    "class": "lw",
     "fields": {
       "bufferLen": {
-        "field": "hb"
+        "field": "dq"
       },
       "bufferOffset": {
-        "field": "cm"
+        "field": "io"
       },
       "faceX": {
-        "field": "at"
+        "field": "aj"
       },
       "faceY": {
-        "field": "ab"
-      },
-      "faceZ": {
-        "field": "ac"
-      },
-      "flat": {
-        "field": "ah"
-      },
-      "modelOverlay": {
-        "field": "ae"
-      },
-      "modelUnderlay": {
-        "field": "ap"
-      },
-      "rotation": {
-        "field": "aq"
-      },
-      "shape": {
         "field": "av"
       },
-      "triangleColorA": {
+      "faceZ": {
+        "field": "ab"
+      },
+      "flat": {
+        "field": "ae"
+      },
+      "modelOverlay": {
+        "field": "ax"
+      },
+      "modelUnderlay": {
         "field": "az"
       },
-      "triangleColorB": {
-        "field": "af"
+      "rotation": {
+        "field": "ah"
       },
-      "triangleColorC": {
-        "field": "aa"
+      "shape": {
+        "field": "au"
       },
-      "triangleTextureId": {
-        "field": "ao"
-      },
-      "uvBufferOffset": {
-        "field": "bk"
-      },
-      "vertexX": {
+      "triangleColorA": {
         "field": "ak"
       },
+      "triangleColorB": {
+        "field": "ap"
+      },
+      "triangleColorC": {
+        "field": "an"
+      },
+      "triangleTextureId": {
+        "field": "ai"
+      },
+      "uvBufferOffset": {
+        "field": "fx"
+      },
+      "vertexX": {
+        "field": "aq"
+      },
       "vertexY": {
-        "field": "al"
+        "field": "ad"
       },
       "vertexZ": {
-        "field": "aj"
+        "field": "ag"
       }
     }
   },
   "SceneTilePaint": {
-    "class": "kg",
+    "class": "lt",
     "fields": {
       "bufferLen": {
-        "field": "ph"
+        "field": "kz"
       },
       "bufferOffset": {
-        "field": "zh"
+        "field": "vx"
       },
       "flat": {
-        "field": "aa"
+        "field": "an"
       },
       "neColor": {
-        "field": "aj",
-        "get": -1859225255
+        "field": "ag",
+        "get": -1168172891
       },
       "nwColor": {
-        "field": "az",
-        "get": 157049983
+        "field": "ak",
+        "get": 716391559
       },
       "rBG": {
-        "field": "at",
-        "get": -864693021
+        "field": "aj",
+        "get": -448594561
       },
       "seColor": {
-        "field": "al",
-        "get": -631865327
+        "field": "ad",
+        "get": -860148807
       },
       "swColor": {
-        "field": "ak",
-        "get": 2059256981
+        "field": "aq",
+        "get": -1673746339
       },
       "texture": {
-        "field": "af",
-        "get": -1479354403
+        "field": "ap",
+        "get": -233451403
       },
       "uvBufferOffset": {
-        "field": "pk"
+        "field": "ug"
       }
     }
   },
   "Script": {
-    "class": "dm",
+    "class": "dg",
     "fields": {
       "instructions": {
-        "field": "aj"
+        "field": "ag"
       },
       "intOperands": {
-        "field": "az"
+        "field": "ak"
       }
     }
   },
   "ScriptEvent": {
-    "class": "dw",
+    "class": "du",
     "fields": {
       "arguments": {
-        "field": "ak"
+        "field": "aq"
       },
       "mouseX": {
-        "field": "af",
-        "get": -361293249
+        "field": "av",
+        "get": -776132997
       },
       "mouseY": {
-        "field": "aa",
-        "get": -1225945623
+        "field": "ae",
+        "get": 1323625187
       },
       "op": {
-        "field": "ah",
-        "get": 192584687
+        "field": "ab",
+        "get": -1437104327
       },
       "opbase": {
-        "field": "ao"
+        "field": "ai"
       },
       "typedKeyChar": {
-        "field": "az",
-        "get": 1455858769
+        "field": "au",
+        "get": -1997341365
       },
       "typedKeyCode": {
-        "field": "av",
-        "get": -1104718817
+        "field": "ap",
+        "get": -1018815261
       }
     }
   },
   "SpritePixels": {
-    "class": "vc",
+    "class": "vg",
     "fields": {
       "height": {
-        "field": "at"
+        "field": "ag"
       },
       "maxHeight": {
-        "field": "al"
+        "field": "aj"
       },
       "maxWidth": {
-        "field": "az"
+        "field": "an"
       },
       "offsetX": {
-        "field": "aj"
-      },
-      "offsetY": {
-        "field": "af"
-      },
-      "pixels": {
         "field": "ak"
       },
-      "width": {
-        "field": "aa"
-      }
-    }
-  },
-  "StructComposition": {
-    "class": "iz",
-    "fields": {
-      "id": {
-        "field": "lu"
-      },
-      "params": {
-        "field": "aj"
-      }
-    }
-  },
-  "Texture": {
-    "class": "jw",
-    "fields": {
-      "animationDirection": {
-        "field": "ah"
-      },
-      "animationSpeed": {
-        "field": "av"
-      },
-      "loaded": {
+      "offsetY": {
         "field": "ap"
       },
       "pixels": {
         "field": "aq"
       },
+      "width": {
+        "field": "ad"
+      }
+    }
+  },
+  "StructComposition": {
+    "class": "hk",
+    "fields": {
+      "id": {
+        "field": "xv"
+      },
+      "params": {
+        "field": "ag"
+      }
+    }
+  },
+  "Texture": {
+    "class": "kz",
+    "fields": {
+      "animationDirection": {
+        "field": "ae"
+      },
+      "animationSpeed": {
+        "field": "au"
+      },
+      "loaded": {
+        "field": "az"
+      },
+      "pixels": {
+        "field": "ah"
+      },
       "u": {
-        "field": "fg"
+        "field": "yz"
       },
       "v": {
-        "field": "cl"
+        "field": "id"
       }
     }
   },
   "TextureProvider": {
-    "class": "jj",
+    "class": "li",
     "fields": {
       "brightness": {
-        "field": "af"
+        "field": "ap"
       }
     }
   },
   "TileItem": {
-    "class": "em",
+    "class": "eo",
     "fields": {
       "id": {
-        "field": "ak",
-        "get": -2113245633
+        "field": "aq",
+        "get": -2050678185
       },
       "ownership": {
-        "field": "af",
-        "get": -1547995727
+        "field": "ap",
+        "get": 587627049
       },
       "private": {
-        "field": "aa"
+        "field": "an"
       },
       "quantity": {
-        "field": "al",
-        "get": 1911170797
+        "field": "ad",
+        "get": 203441303
       }
     }
   },
   "VarbitComposition": {
-    "class": "it",
+    "class": "hc",
     "fields": {
       "index": {
-        "field": "aj",
-        "get": -1882753779
+        "field": "ak",
+        "get": -403599393
       },
       "leastSignificantBit": {
-        "field": "az",
-        "get": 1148518977
+        "field": "ap",
+        "get": -957731269
       },
       "mostSignificantBit": {
-        "field": "af",
-        "get": -2059703331
+        "field": "ag",
+        "get": -989672663
       }
     }
   },
   "WallObject": {
-    "class": "kt",
+    "class": "la",
     "fields": {
       "config": {
-        "field": "ac",
-        "get": -1373030979
+        "field": "ad",
+        "get": 696972967
       },
       "hash": {
-        "field": "ab",
-        "get": 4933655260804930000
+        "field": "av",
+        "get": 7437302260060701000
       },
       "orientationA": {
-        "field": "az",
-        "get": 336880011
+        "field": "aq",
+        "get": -1427307041
+      },
+      "orientationB": {
+        "field": "ak",
+        "get": 1529712313
       },
       "plane": {
-        "field": "hg"
+        "field": "ut"
       },
       "x": {
-        "field": "al",
-        "get": -1814303763
+        "field": "ag",
+        "get": -35525971
+      },
+      "y": {
+        "field": "ap",
+        "get": 1279477689
+      },
+      "z": {
+        "field": "ab",
+        "get": 813042761
       }
     }
   },
   "Widget": {
-    "class": "nb",
+    "class": "nx",
     "fields": {
       "actions": {
-        "field": "el"
-      },
-      "animationId": {
-        "field": "cu",
-        "get": -2027266733
+        "field": "ev"
       },
       "borderType": {
-        "field": "ca",
-        "get": -567892145
+        "field": "cy",
+        "get": 1483878917
       },
       "clickMask": {
-        "field": "dv",
-        "get": 927614071
+        "field": "dx",
+        "get": 286263045
       },
       "contentType": {
-        "field": "bw",
-        "get": -1325176123
+        "field": "ba",
+        "get": 650299475
       },
       "dragDeadTime": {
+        "field": "en",
+        "get": -655581333
+      },
+      "dragDeadZone": {
         "field": "ea",
-        "get": -2052826385
+        "get": -2091171195
       },
       "dragParent": {
-        "field": "eb"
+        "field": "eu"
       },
       "filled": {
-        "field": "df"
+        "field": "cu"
       },
       "fontId": {
-        "field": "dg",
-        "get": 168331883
+        "field": "di",
+        "get": -700546895
       },
       "height": {
-        "field": "bm",
-        "get": -73929865
-      },
-      "heightMode": {
-        "field": "bu",
-        "get": -4907921
-      },
-      "id": {
-        "field": "bf",
-        "get": -758120447
+        "field": "bn",
+        "get": -1888969631
       },
       "if3": {
-        "field": "cz"
-      },
-      "index": {
-        "field": "bo",
-        "get": -727643239
-      },
-      "itemId": {
-        "field": "gg",
-        "get": 2107973379
+        "field": "bt"
       },
       "itemQuantity": {
-        "field": "go",
-        "get": 1759783679
+        "field": "gj",
+        "get": -1807299683
       },
       "itemQuantityMode": {
-        "field": "dw",
-        "get": -1081289319
+        "field": "du",
+        "get": -1462515793
+      },
+      "lineHeight": {
+        "field": "db",
+        "get": -831075649
       },
       "modelId": {
-        "field": "cg",
-        "get": 405023107
+        "field": "cb",
+        "get": -200792735
       },
       "modelType": {
-        "field": "ct",
-        "get": -881547
+        "field": "cr",
+        "get": -1599213851
       },
       "modelZoom": {
-        "field": "do",
-        "get": 926637623
+        "field": "ds",
+        "get": -235408515
       },
       "onInvTransmitListener": {
-        "field": "fz"
+        "field": "fd"
       },
       "onKeyListener": {
-        "field": "fb"
+        "field": "fk"
       },
       "onLoadListener": {
-        "field": "ec"
+        "field": "em"
       },
       "onOpListener": {
-        "field": "fa"
+        "field": "fl"
       },
       "onVarTransmitListener": {
-        "field": "fm"
+        "field": "fh"
       },
       "opacity": {
-        "field": "cm",
-        "get": 477398947
+        "field": "ce",
+        "get": 1049665797
       },
       "originalHeight": {
-        "field": "br",
-        "get": -1980663789
+        "field": "bl",
+        "get": 1100508457
       },
       "originalWidth": {
-        "field": "bp",
-        "get": -281674593
+        "field": "bw",
+        "get": 313524553
       },
       "originalX": {
-        "field": "bh",
-        "get": 1467284707
+        "field": "bu",
+        "get": -1060131217
       },
       "originalY": {
-        "field": "bk",
-        "get": -2071164941
+        "field": "by",
+        "get": 1553952287
       },
       "relativeX": {
-        "field": "bx",
-        "get": -206303103
+        "field": "bc",
+        "get": -2062618881
       },
       "relativeY": {
-        "field": "bd",
-        "get": 1861166551
+        "field": "bv",
+        "get": 1102193885
       },
       "rotationX": {
-        "field": "dm",
-        "get": 299779145
+        "field": "dg",
+        "get": -1574425945
       },
       "rotationY": {
-        "field": "db",
-        "get": -586331193
-      },
-      "rotationZ": {
-        "field": "dr",
-        "get": -614203921
-      },
-      "scrollHeight": {
-        "field": "cw",
-        "get": -1423426439
+        "field": "dn",
+        "get": 797774769
       },
       "scrollWidth": {
-        "field": "by",
-        "get": -2051530881
+        "field": "bf",
+        "get": -1289302289
       },
       "scrollX": {
-        "field": "ba",
-        "get": -1262905319
+        "field": "bk",
+        "get": -1141305685
       },
       "scrollY": {
-        "field": "bb",
-        "get": -405857523
+        "field": "br",
+        "get": 257051461
       },
       "selfHidden": {
-        "field": "dz"
+        "field": "bz"
       },
       "spriteId": {
-        "field": "cr",
-        "get": 565505515
+        "field": "cd",
+        "get": -969610781
       },
       "targetVerb": {
-        "field": "du"
+        "field": "da"
       },
       "textColor": {
-        "field": "ck",
-        "get": -261620449
+        "field": "cv",
+        "get": 989679041
       },
       "type": {
-        "field": "bt",
-        "get": -1541050645
+        "field": "bo",
+        "get": 505032615
       },
       "width": {
-        "field": "bv",
-        "get": -1967565413
+        "field": "bb",
+        "get": -616855855
       },
       "widthMode": {
-        "field": "bg",
-        "get": 613298417
+        "field": "bp",
+        "get": -817282947
       },
       "xPositionMode": {
-        "field": "bl",
-        "get": 1362138125
+        "field": "bg",
+        "get": -700936881
       },
       "xTextAlignment": {
-        "field": "dn",
-        "get": 261981695
+        "field": "dz",
+        "get": -1161106127
       },
       "yPositionMode": {
-        "field": "be",
-        "get": 856493267
+        "field": "bs",
+        "get": -1081332403
       },
       "yTextAlignment": {
-        "field": "dl",
-        "get": -1644937055
+        "field": "dc",
+        "get": 1734965623
       }
     }
   },
   "WidgetNode": {
-    "class": "dz",
+    "class": "dv",
     "fields": {
       "id": {
-        "field": "ak",
-        "get": 1734803163
+        "field": "ad",
+        "get": -76246547
       },
       "modalMode": {
-        "field": "al",
-        "get": -242259599
+        "field": "aq",
+        "get": -546537661
       }
     }
   },
   "World": {
-    "class": "cl",
+    "class": "cw",
     "fields": {
       "activity": {
-        "field": "au"
+        "field": "ax"
       },
       "address": {
-        "field": "ae"
+        "field": "az"
       },
       "id": {
-        "field": "ah",
-        "get": 1955345391
+        "field": "ae",
+        "get": -879175101
       },
       "index": {
-        "field": "ay",
-        "get": -418279125
+        "field": "al",
+        "get": 241496969
       },
       "location": {
-        "field": "ax",
-        "get": -157204183
+        "field": "ac",
+        "get": 1536325123
+      },
+      "playerCount": {
+        "field": "ah",
+        "get": 1966096563
       }
     }
   },
   "WorldEntity": {
-    "class": "st",
+    "class": "so",
     "fields": {}
   },
   "WorldMapData": {
-    "class": "kz",
+    "class": "jm",
     "fields": {}
   },
   "WorldMapIcon": {
-    "class": "ls",
+    "class": "kh",
     "fields": {}
   },
   "WorldMapRegion": {
-    "class": "ks",
+    "class": "jc",
     "fields": {}
   },
   "WorldMapRenderer": {
-    "class": "ki",
+    "class": "jq",
     "fields": {
       "loaded": {
-        "field": "ak"
+        "field": "aq"
       },
       "mapRegions": {
-        "field": "aa"
+        "field": "an"
       }
     }
   },
   "WorldView": {
-    "class": "dt",
+    "class": "de",
     "fields": {
       "baseX": {
-        "field": "at",
-        "get": -1010690991
+        "field": "aj",
+        "get": 998139683
       },
       "baseY": {
-        "field": "ab",
-        "get": -854149623
+        "field": "av",
+        "get": -1484949025
       },
       "graphicsObjects": {
-        "field": "an"
+        "field": "aw"
       },
       "id": {
-        "field": "ak",
-        "get": -1413982259
+        "field": "aq",
+        "get": 2142034745
       },
       "instance": {
-        "field": "gw"
+        "field": "lx"
       },
       "instanceTemplateChunks": {
-        "field": "ya"
+        "field": "xn"
       },
       "plane": {
-        "field": "jh",
-        "get": 1305902891
+        "field": "ak",
+        "get": -1735177445
       },
       "projectiles": {
-        "field": "ai"
+        "field": "as"
       },
       "sizeX": {
-        "field": "af",
-        "get": -1392129955
+        "field": "ap",
+        "get": 1019381583
       },
       "sizeY": {
-        "field": "aa",
-        "get": -1595806771
+        "field": "an",
+        "get": 1628317125
       },
       "tileHeights": {
-        "field": "ao"
+        "field": "ai"
       },
       "tileSettings": {
-        "field": "ah"
+        "field": "ae"
       }
     }
   },
   "hasFocus": {
-    "class": "ru",
-    "field": "bm"
+    "class": "tg",
+    "field": "bn"
   },
   "keyHandlerInstance": {
-    "class": "be",
-    "field": "bq"
+    "class": "bs",
+    "field": "bh"
   },
   "mouseHandlerIdleCycles": {
-    "class": "bg",
-    "field": "af",
-    "get": -790745065
+    "class": "bp",
+    "field": "ap",
+    "get": -1541374105
   },
   "volatileFocus": {
-    "class": "be",
-    "field": "bv"
+    "class": "bs",
+    "field": "bb"
   }
 }
