@@ -1273,6 +1273,9 @@
       "selectedX": {
         "field": "hf"
       },
+      "selectedY": {
+        "field": "ag"
+      },
       "tileHeights": {
         "field": "aj"
       },
