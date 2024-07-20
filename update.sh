@@ -1,16 +1,12 @@
 #!/bin/sh
 set -e
 HOOKS_HASH=$(cat hash)
-eval $(curl https://static.runelite.net/bootstrap.json | jq -r '.artifacts[]|select(.name|startswith("client-patch"))|"BOOT_HASH="+.hash,"BOOT_NAME="+.name,"BOOT_PATH="+.path')
+eval $(curl https://static.runelite.net/bootstrap.json | jq -r '.artifacts[]|select(.name|startswith("injected-client"))|"BOOT_HASH="+.hash,"BOOT_NAME="+.name,"BOOT_PATH="+.path')
 if [ "$HOOKS_HASH" = "$BOOT_HASH" ]; then
 	exit
 fi
-curl $BOOT_PATH > client-patch.jar
-unzip client-patch.jar client.patch
-VANILLA_URL=$(curl https://static.runelite.net/jav_config.ws | grep runelite.gamepack | tail -c +19)
-curl $VANILLA_URL > vanilla.jar
-$JAVA_HOME_21_X64/bin/java -cp updater.jar net.runelite.gamepack.Patcher vanilla.jar client.patch patched.jar
-$JAVA_HOME_21_X64/bin/java -cp updater.jar net.runelite.deob.Deob patched.jar deob.jar
+curl $BOOT_PATH > injected-client.jar
+$JAVA_HOME_21_X64/bin/java -cp updater.jar net.runelite.deob.Deob injected-client.jar deob.jar
 $JAVA_HOME_21_X64/bin/java -cp updater.jar net.runelite.hook.UpdateHooks deob.jar renamed.jar hooks-unsorted.json
 jq -S < hooks-unsorted.json > hooks.json
 echo -n $BOOT_HASH > hash
