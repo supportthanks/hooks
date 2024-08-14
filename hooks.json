@@ -1236,10 +1236,10 @@
         "field": "qm"
       },
       "selectedX": {
-        "field": "ow"
+        "field": "bi"
       },
       "selectedY": {
-        "field": "bi"
+        "field": "be"
       },
       "tileHeights": {
         "field": "am"
