@@ -1043,10 +1043,6 @@
         "field": "ak",
         "get": 2127317601
       },
-      "sizeY": {
-        "field": "ap",
-        "get": 12326389
-      },
       "varPlayerId": {
         "field": "bq",
         "get": 970456439
