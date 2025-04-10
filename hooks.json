@@ -32,69 +32,73 @@
     "class": "dy",
     "fields": {
       "animation": {
-        "field": "cy",
+        "field": "cw",
         "get": -2046318331
       },
       "animationFrame": {
-        "field": "dm",
+        "field": "be",
         "get": -678966771
       },
       "currentOrientation": {
-        "field": "bg",
+        "field": "ci",
         "get": 1189441443
       },
       "dead": {
-        "field": "ze"
+        "field": "un"
       },
       "idlePoseAnimation": {
-        "field": "bf",
+        "field": "bm",
         "get": 283681027
       },
       "idleRotateLeft": {
-        "field": "bi",
+        "field": "cc",
         "get": -1067878957
       },
+      "idleRotateRight": {
+        "field": "dt",
+        "get": 147747107
+      },
       "logicalHeight": {
-        "field": "dg",
+        "field": "bo",
         "get": -852181573
       },
       "orientation": {
-        "field": "de",
+        "field": "dl",
         "get": -362694393
       },
       "overheadCycle": {
-        "field": "cr",
+        "field": "cy",
         "get": 1490394423
       },
       "overheadText": {
         "field": "ct"
       },
       "poseAnimation": {
-        "field": "cm",
+        "field": "cl",
         "get": -395396925
       },
       "poseAnimationFrame": {
-        "field": "cn",
+        "field": "dw",
         "get": -2090860199
       },
       "runAnimation": {
-        "field": "cc",
+        "field": "cs",
         "get": 401537553
       },
       "walkAnimation": {
-        "field": "cg",
+        "field": "df",
         "get": 853067441
       },
       "walkRotate180": {
-        "field": "cq",
+        "field": "dg",
         "get": -1997949081
       },
       "walkRotateLeft": {
-        "field": "cp",
+        "field": "da",
         "get": -1321632811
       },
       "walkRotateRight": {
-        "field": "cs",
+        "field": "bb",
         "get": -1289996219
       }
     }
@@ -102,16 +106,20 @@
   "ActorSpotAnim": {
     "class": "tz",
     "fields": {
+      "cycle": {
+        "field": "ae",
+        "get": -160350273
+      },
       "frame": {
-        "field": "af",
+        "field": "an",
         "get": -376121357
       },
       "height": {
-        "field": "an",
+        "field": "as",
         "get": 735736157
       },
       "id": {
-        "field": "ae",
+        "field": "ao",
         "get": 1021878383
       }
     }
@@ -143,7 +151,7 @@
         "get": 1317991895
       },
       "id": {
-        "field": "qn"
+        "field": "pm"
       },
       "restartMode": {
         "field": "bl",
@@ -155,14 +163,14 @@
     "class": "wn",
     "fields": {
       "height": {
-        "field": "af",
+        "field": "as",
         "get": 743543999
       },
       "pixels": {
         "field": "ae"
       },
       "width": {
-        "field": "as",
+        "field": "af",
         "get": 1129739107
       }
     }
@@ -183,7 +191,7 @@
     "class": "se",
     "fields": {
       "world": {
-        "field": "av",
+        "field": "as",
         "get": -1111657969
       }
     }
@@ -228,7 +236,7 @@
         "get": 671064862094971049
       },
       "callbacks": {
-        "field": "zz"
+        "field": "dg"
       }
     }
   },
@@ -264,7 +272,7 @@
     "class": "hk",
     "fields": {
       "config": {
-        "field": "ax",
+        "field": "aa",
         "get": -1053939873
       },
       "hash": {
@@ -272,26 +280,26 @@
         "get": -7693401070401507971
       },
       "plane": {
-        "field": "wc"
+        "field": "eo"
       },
       "x": {
-        "field": "aq",
+        "field": "an",
         "get": -1334261507
       },
       "xOffset": {
-        "field": "an",
+        "field": "ap",
         "get": 421308915
       },
       "y": {
-        "field": "av",
+        "field": "am",
         "get": 1621713413
       },
       "yOffset": {
-        "field": "ap",
+        "field": "av",
         "get": -988426473
       },
       "z": {
-        "field": "as",
+        "field": "aq",
         "get": -521904581
       }
     }
@@ -313,10 +321,10 @@
     "class": "js",
     "fields": {
       "intVals": {
-        "field": "am"
+        "field": "aa"
       },
       "keys": {
-        "field": "aa"
+        "field": "am"
       },
       "stringVals": {
         "field": "ap"
@@ -369,7 +377,7 @@
         "field": "bv"
       },
       "clientThread": {
-        "field": "qd"
+        "field": "zr"
       }
     }
   },
@@ -435,23 +443,23 @@
     "class": "cm",
     "fields": {
       "animationFrame": {
-        "field": "aa",
+        "field": "av",
         "get": 1334387567
       },
       "id": {
-        "field": "av",
+        "field": "ap",
         "get": 1052289895
       },
       "level": {
-        "field": "an",
+        "field": "aa",
         "get": -2141960109
       },
       "startCycle": {
-        "field": "ao",
+        "field": "as",
         "get": 1875664871
       },
       "z": {
-        "field": "as",
+        "field": "af",
         "get": -726395587
       }
     }
@@ -468,7 +476,7 @@
         "get": 6652514834654138687
       },
       "plane": {
-        "field": "yf"
+        "field": "lc"
       },
       "x": {
         "field": "af",
@@ -505,7 +513,7 @@
     "class": "ph",
     "fields": {
       "overlayOutdated": {
-        "field": "ty"
+        "field": "mg"
       }
     }
   },
@@ -542,31 +550,31 @@
     "class": "gv",
     "fields": {
       "cameraX": {
-        "field": "aq",
+        "field": "ao",
         "get": -1953447775
       },
       "cameraY": {
-        "field": "av",
+        "field": "an",
         "get": 1188164869
       },
       "cameraZ": {
-        "field": "as",
+        "field": "ae",
         "get": 837948911
       },
       "pitchCos": {
-        "field": "af",
+        "field": "av",
         "get": -256154995
       },
       "pitchSin": {
-        "field": "ap",
+        "field": "aq",
         "get": -2105898649
       },
       "yawCos": {
-        "field": "an",
+        "field": "aa",
         "get": -1391053273
       },
       "yawSin": {
-        "field": "ao",
+        "field": "am",
         "get": -588305301
       }
     }
@@ -615,7 +623,7 @@
         "field": "bu"
       },
       "membersName": {
-        "field": "yg"
+        "field": "ui"
       },
       "name": {
         "field": "ag"
@@ -677,18 +685,22 @@
         "get": 227418584973564749
       },
       "height": {
-        "field": "an",
+        "field": "am",
         "get": 1229830239
       },
       "plane": {
-        "field": "lt"
+        "field": "ic"
       },
       "x": {
-        "field": "ae",
+        "field": "an",
         "get": -1629083191
       },
+      "y": {
+        "field": "ae",
+        "get": 1159049965
+      },
       "z": {
-        "field": "am",
+        "field": "ao",
         "get": -297505657
       }
     }
@@ -718,7 +730,7 @@
     "class": "jk",
     "fields": {
       "category": {
-        "field": "at",
+        "field": "av",
         "get": -387932705
       }
     }
@@ -727,19 +739,15 @@
     "class": "wm",
     "fields": {
       "menuHeight": {
-        "field": "aj",
+        "field": "ay",
         "get": -2062874599
       },
-      "menuWidth": {
-        "field": "ar",
-        "get": 498698363
-      },
       "menuX": {
-        "field": "ay",
+        "field": "ac",
         "get": -1315380751
       },
       "menuY": {
-        "field": "al",
+        "field": "ar",
         "get": -2020272363
       }
     }
@@ -759,13 +767,13 @@
         "field": "af"
       },
       "runeLiteFormatMessage": {
-        "field": "wm"
+        "field": "ms"
       },
       "sender": {
         "field": "aq"
       },
       "timestamp": {
-        "field": "jq"
+        "field": "xr"
       }
     }
   },
@@ -777,7 +785,7 @@
         "get": -652555527
       },
       "jingle": {
-        "field": "kg"
+        "field": "av"
       }
     }
   },
@@ -788,7 +796,7 @@
         "field": "ck"
       },
       "bufferOffset": {
-        "field": "je"
+        "field": "tg"
       },
       "diameter": {
         "field": "cr"
@@ -803,7 +811,7 @@
         "field": "ci"
       },
       "faceCount": {
-        "field": "bn"
+        "field": "be"
       },
       "faceIndices1": {
         "field": "bo"
@@ -827,7 +835,7 @@
         "field": "cb"
       },
       "sceneId": {
-        "field": "rt"
+        "field": "cd"
       },
       "texIndices1": {
         "field": "ca"
@@ -842,28 +850,28 @@
         "field": "cp"
       },
       "uvBufferOffset": {
-        "field": "kg"
+        "field": "bn"
       },
       "vertexNormalsX": {
-        "field": "my"
+        "field": "jb"
       },
       "vertexNormalsY": {
-        "field": "su"
+        "field": "ld"
       },
       "vertexNormalsZ": {
-        "field": "kz"
+        "field": "vl"
       },
       "verticesCount": {
-        "field": "be"
+        "field": "hk"
       },
       "verticesX": {
-        "field": "is"
+        "field": "rb"
       },
       "verticesY": {
-        "field": "lg"
+        "field": "zj"
       },
       "verticesZ": {
-        "field": "gw"
+        "field": "cy"
       },
       "xYZMag": {
         "field": "cj"
@@ -898,13 +906,13 @@
         "field": "aa"
       },
       "verticesX": {
-        "field": "bg"
+        "field": "fo"
       },
       "verticesY": {
-        "field": "sc"
+        "field": "oi"
       },
       "verticesZ": {
-        "field": "qc"
+        "field": "fj"
       }
     }
   },
@@ -916,10 +924,10 @@
     "class": "et",
     "fields": {
       "chatheadOverrides": {
-        "field": "ap"
+        "field": "ax"
       },
       "modelOverrides": {
-        "field": "ax"
+        "field": "ap"
       }
     }
   },
@@ -936,7 +944,7 @@
         "field": "br"
       },
       "combatLevel": {
-        "field": "bw",
+        "field": "au",
         "get": 38262107
       },
       "configs": {
@@ -950,7 +958,7 @@
         "get": 1642600993
       },
       "id": {
-        "field": "aq",
+        "field": "ag",
         "get": 301808089
       },
       "interactible": {
@@ -969,7 +977,7 @@
         "field": "bn"
       },
       "size": {
-        "field": "am",
+        "field": "ai",
         "get": 564678089
       },
       "visible": {
@@ -1035,7 +1043,7 @@
         "get": 1533455789
       },
       "impostorIds": {
-        "field": "be"
+        "field": "bf"
       },
       "mapIconId": {
         "field": "bb",
@@ -1124,14 +1132,14 @@
     "class": "df",
     "fields": {
       "areaSoundEffectVolume": {
-        "field": "au",
+        "field": "ar",
         "get": 809166681
       },
       "rememberedUsername": {
         "field": "al"
       },
       "soundEffectVolume": {
-        "field": "ar",
+        "field": "aw",
         "get": 1641857065
       }
     }
@@ -1143,42 +1151,38 @@
         "field": "br"
       },
       "animationFrame": {
-        "field": "bp",
+        "field": "au",
         "get": 915881501
       },
       "endCycle": {
-        "field": "ap",
+        "field": "af",
         "get": -292547781
       },
       "endHeight": {
-        "field": "as",
+        "field": "ak",
         "get": -497321537
       },
       "floor": {
-        "field": "ao",
+        "field": "am",
         "get": -1722877969
       },
-      "height": {
-        "field": "af",
-        "get": 427306615
-      },
       "id": {
-        "field": "ai",
+        "field": "ag",
         "get": -1051607675
       },
       "scalar": {
         "field": "az"
       },
       "slope": {
-        "field": "ax",
+        "field": "av",
         "get": -1936614933
       },
       "startCycle": {
-        "field": "aa",
+        "field": "ao",
         "get": 1879074667
       },
       "startHeight": {
-        "field": "aw",
+        "field": "ap",
         "get": 413374389
       },
       "velocityX": {
@@ -1194,14 +1198,14 @@
         "field": "al"
       },
       "x1": {
-        "field": "an",
+        "field": "as",
         "get": -1193099465
       },
       "y": {
         "field": "ac"
       },
       "y1": {
-        "field": "ae",
+        "field": "bz",
         "get": 575643989
       },
       "z": {
@@ -1238,34 +1242,34 @@
     "class": "ho",
     "fields": {
       "baseX": {
-        "field": "gu"
+        "field": "lf"
       },
       "baseY": {
-        "field": "hw"
+        "field": "fi"
       },
       "extendedTileSettings": {
-        "field": "vk"
+        "field": "ld"
       },
       "instance": {
-        "field": "ox"
+        "field": "pe"
       },
       "instanceTemplateChunks": {
-        "field": "ta"
+        "field": "yv"
       },
       "mapRegions": {
-        "field": "hl"
+        "field": "qz"
       },
       "minLevel": {
         "field": "bi"
       },
       "overlayIds": {
-        "field": "nq"
+        "field": "sb"
       },
       "roofRemovalMode": {
-        "field": "xd"
+        "field": "ni"
       },
       "roofs": {
-        "field": "ve"
+        "field": "wr"
       },
       "selectedX": {
         "field": "be"
@@ -1277,13 +1281,13 @@
         "field": "bf"
       },
       "tileShapes": {
-        "field": "wf"
+        "field": "ys"
       },
       "underlayIds": {
-        "field": "lf"
+        "field": "tm"
       },
       "viewportWalking": {
-        "field": "cn"
+        "field": "bq"
       },
       "worldViewId": {
         "field": "ai"
@@ -1294,10 +1298,10 @@
     "class": "ht",
     "fields": {
       "bufferLen": {
-        "field": "uc"
+        "field": "bg"
       },
       "bufferOffset": {
-        "field": "co"
+        "field": "dw"
       },
       "faceX": {
         "field": "aj"
@@ -1336,7 +1340,7 @@
         "field": "ay"
       },
       "uvBufferOffset": {
-        "field": "wx"
+        "field": "pj"
       },
       "vertexX": {
         "field": "aa"
@@ -1353,16 +1357,16 @@
     "class": "hp",
     "fields": {
       "bufferLen": {
-        "field": "yz"
+        "field": "td"
       },
       "bufferOffset": {
-        "field": "iq"
+        "field": "ks"
       },
       "flat": {
         "field": "aq"
       },
       "neColor": {
-        "field": "ao",
+        "field": "av",
         "get": -2008812151
       },
       "nwColor": {
@@ -1374,19 +1378,15 @@
         "get": -179143249
       },
       "seColor": {
-        "field": "af",
+        "field": "ao",
         "get": 1204512953
-      },
-      "swColor": {
-        "field": "av",
-        "get": -401608449
       },
       "texture": {
         "field": "ae",
         "get": 1784135893
       },
       "uvBufferOffset": {
-        "field": "kz"
+        "field": "ko"
       }
     }
   },
@@ -1462,7 +1462,7 @@
     "class": "kp",
     "fields": {
       "id": {
-        "field": "qk"
+        "field": "hb"
       },
       "params": {
         "field": "ae"
@@ -1485,10 +1485,10 @@
         "field": "au"
       },
       "u": {
-        "field": "of"
+        "field": "fb"
       },
       "v": {
-        "field": "lg"
+        "field": "yd"
       }
     }
   },
@@ -1504,18 +1504,18 @@
     "class": "ew",
     "fields": {
       "id": {
-        "field": "as",
+        "field": "an",
         "get": -2066494245
       },
       "ownership": {
-        "field": "am",
+        "field": "aq",
         "get": 653861525
       },
       "private": {
         "field": "av"
       },
       "quantity": {
-        "field": "an",
+        "field": "ae",
         "get": 1397380011
       }
     }
@@ -1557,7 +1557,7 @@
         "get": -1339709725
       },
       "plane": {
-        "field": "vn"
+        "field": "ke"
       },
       "x": {
         "field": "as",
@@ -1583,6 +1583,10 @@
         "field": "dc",
         "get": -707435155
       },
+      "borderType": {
+        "field": "cy",
+        "get": 179450797
+      },
       "clickMask": {
         "field": "en",
         "get": -2017489947
@@ -1590,6 +1594,10 @@
       "contentType": {
         "field": "bs",
         "get": 1611553321
+      },
+      "dragDeadTime": {
+        "field": "ey",
+        "get": 387322557
       },
       "dragDeadZone": {
         "field": "ea",
@@ -1609,6 +1617,10 @@
         "field": "be",
         "get": -974493223
       },
+      "id": {
+        "field": "ba",
+        "get": -1272786511
+      },
       "if3": {
         "field": "bh"
       },
@@ -1624,24 +1636,36 @@
         "field": "dy",
         "get": -1517116737
       },
+      "lineHeight": {
+        "field": "dj",
+        "get": -48133459
+      },
+      "modelId": {
+        "field": "ds",
+        "get": 1051524411
+      },
       "modelType": {
         "field": "dp",
         "get": -1763834903
       },
+      "modelZoom": {
+        "field": "de",
+        "get": -1634725447
+      },
       "onInvTransmitListener": {
-        "field": "fy"
+        "field": "fs"
       },
       "onKeyListener": {
-        "field": "fw"
+        "field": "fp"
       },
       "onLoadListener": {
-        "field": "gt"
+        "field": "ek"
       },
       "onOpListener": {
-        "field": "fu"
+        "field": "fz"
       },
       "onVarTransmitListener": {
-        "field": "fa"
+        "field": "fk"
       },
       "opacity": {
         "field": "cr",
@@ -1663,13 +1687,13 @@
         "field": "bo",
         "get": 552722723
       },
+      "relativeY": {
+        "field": "bg",
+        "get": 615948551
+      },
       "rotationX": {
         "field": "dt",
         "get": -872876923
-      },
-      "rotationY": {
-        "field": "dg",
-        "get": -313599257
       },
       "rotationZ": {
         "field": "da",
@@ -1682,6 +1706,10 @@
       "scrollWidth": {
         "field": "cl",
         "get": 429349927
+      },
+      "scrollX": {
+        "field": "cd",
+        "get": -995729201
       },
       "scrollY": {
         "field": "ca",
@@ -1697,6 +1725,10 @@
       "targetVerb": {
         "field": "ez"
       },
+      "textColor": {
+        "field": "cw",
+        "get": -72158781
+      },
       "type": {
         "field": "bu",
         "get": 72144301
@@ -1708,17 +1740,9 @@
         "field": "bv",
         "get": -353052085
       },
-      "xPositionMode": {
-        "field": "bx",
-        "get": -1797381809
-      },
       "xTextAlignment": {
         "field": "dn",
         "get": 1297737947
-      },
-      "yPositionMode": {
-        "field": "bj",
-        "get": -903435843
       },
       "yTextAlignment": {
         "field": "et",
@@ -1730,11 +1754,11 @@
     "class": "dd",
     "fields": {
       "id": {
-        "field": "ao",
+        "field": "an",
         "get": 427380359
       },
       "modalMode": {
-        "field": "an",
+        "field": "ao",
         "get": 1808680689
       }
     }
@@ -1812,13 +1836,13 @@
         "get": 2085597975
       },
       "instance": {
-        "field": "wp"
+        "field": "om"
       },
       "instanceTemplateChunks": {
-        "field": "ud"
+        "field": "pg"
       },
       "mapRegions": {
-        "field": "qj"
+        "field": "vf"
       },
       "plane": {
         "field": "af",
