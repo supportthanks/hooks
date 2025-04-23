@@ -600,10 +600,6 @@
       "colorToReplaceWith": {
         "field": "ah"
       },
-      "contrast": {
-        "field": "bg",
-        "get": -173730921
-      },
       "id": {
         "field": "ay",
         "get": 2019656833
