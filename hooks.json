@@ -594,6 +594,10 @@
       "colorToReplaceWith": {
         "field": "ax"
       },
+      "contrast": {
+        "field": "br",
+        "get": 1478259561
+      },
       "id": {
         "field": "at",
         "get": 483187141
