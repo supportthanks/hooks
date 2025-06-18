@@ -1,0 +1,61 @@
+name: Merge Hooks Automatically
+
+on:
+  schedule:
+    - cron: '0 0 * * *'  # Runs daily (adjust as needed)
+  workflow_dispatch:      # Allows manual triggering
+
+jobs:
+  merge-hooks:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Fetch Target Hooks.json
+        run: |
+          curl -o external-hooks.json https://raw.githubusercontent.com/mikkehj/RuneliteHooks/main/Hooks.json
+
+      - name: Merge Hooks.json Files
+        uses: actions/github-script@v6
+        with:
+          script: |
+            const fs = require('fs');
+            
+            // Load both JSON files
+            const myHooks = JSON.parse(fs.readFileSync('hooks/hooks.json', 'utf8'));
+            const externalHooks = JSON.parse(fs.readFileSync('external-hooks.json', 'utf8'));
+            
+            // Merge logic (customize based on your needs)
+            const mergedHooks = {
+              ...myHooks,
+              ...externalHooks,  // Overwrites duplicates in myHooks with externalHooks
+            };
+            
+            // Save the merged file
+            fs.writeFileSync('hooks/hooks.json', JSON.stringify(mergedHooks, null, 2));
+            
+            // Commit and push changes
+            await github.rest.repos.createCommit({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              message: 'Automated merge: Update hooks.json',
+              tree: await github.rest.git.createTree({
+                base_tree: process.env.GITHUB_SHA,
+                tree: [
+                  {
+                    path: 'hooks/hooks.json',
+                    mode: '100644',
+                    content: fs.readFileSync('hooks/hooks.json', 'utf8'),
+                  },
+                ],
+              }),
+            });
+
+      - name: Push Changes
+        run: |
+          git config --global user.name "GitHub Actions"
+          git config --global user.email "actions@github.com"
+          git add hooks/hooks.json
+          git commit -m "Automated merge: Update hooks.json"
+          git push
